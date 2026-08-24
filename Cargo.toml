@@ -1,0 +1,11 @@
+[package]
+name = "steelseries-battery"
+version = "0.1.0"
+edition = "2024"
+description = "Tray icon for SteelSeries wireless mouse/headset battery levels, without SteelSeries GG"
+license = "MIT"
+
+[dependencies]
+hidapi = "2"
+tray-icon = "0.24.2"
+winit = "0.30.13"
